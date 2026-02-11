@@ -1,0 +1,19 @@
+# Dados persistentes dos containers
+config/
+cache/
+downloads/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker overrides locais
+docker-compose.override.yml
+
+# Arquivos de ambiente (se criar depois)
+.env
