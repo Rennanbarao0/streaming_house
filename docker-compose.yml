@@ -15,8 +15,7 @@ services:
     volumes:
       - ./config/jellyfin:/config
       - ./cache/jellyfin:/cache
-      - ./downloads:/media  
-
+      - /home/easypanel/media:/media 
 
   qbittorrent:
     image: linuxserver/qbittorrent
@@ -36,4 +35,4 @@ services:
 
     volumes:
       - ./config/qbittorrent:/config
-      - ./downloads:/downloads
+      - /home/easypanel/media:/downloads
